@@ -1,0 +1,10 @@
+<!doctype html> <html ng-app=sts> <head> <meta charset=utf-8> <meta name=description> <meta name=viewport content="width=device-width, initial-scale=1"> <title ng-bind=title>SMS-Track Follow Up Tool</title> <meta http-equiv=X-UA-Compatible content="IE=edge"> <meta name=description> <meta name=author> <meta name=app_version content=0.0.1-2> <base href="/"> <link rel="shortcut icon" href=favicon.ico> <link rel=apple-touch-icon href=apple-touch-icon.png>  <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all"> <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel=stylesheet type=text/css> <link rel=stylesheet href=styles/main.css>  </head> <body ng-cloak> <!--[if lt IE 10]>
+ <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+ <![endif]--> <div class="main-container col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-xs-12"> <div header> </div> <div proba class="col-xs-6 col-xs-offset-3"> </div> <div ui-view=main> </div> </div> <div navbar logo ng-if=!state.hideNavbar> </div> <div message></div> <div class="page-wrapper-row full-height"> <div class=page-wrapper-middle> <div class=page-container ng-show=!pageLoading> <div class=page-head> <div class=page-content> <div class=container> <div breadcrumb></div> <div ui-view=main> </div> </div> </div> </div> </div> </div> <span us-spinner spinner-on=pageLoading spinner-theme=pageLoader></span> </div>  <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+  </script>   <script src=bundle.js></script> </body> </html>
