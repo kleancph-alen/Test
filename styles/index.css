@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    width: 1024px;
+    background: #6997C7;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    z-index: 2000;
+    opacity: 0.8;
+}
+
+.navbar{
+    float: right;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item{
+    float: right;
+    color: white;
+    padding: 30px 20px;
+    border-left: 1px #f1f1f1 solid;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.main{
+    width: 1024px;
+}
+
+.main-header{
+    background-image: url('../img/lam1JQA.jpg');
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.contact-us-btn{
+    background: #7CABA9;
+    padding: 20px 40px;
+    opacity: 0.9;
+    border: none;
+    box-shadow: 0 2px 7px #888888;
+    border-radius: 500px;
+    font-weight: bold;
+    margin: 10px 0px;
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 2000px;
+}

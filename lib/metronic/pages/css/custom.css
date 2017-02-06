@@ -1,0 +1,24 @@
+/* profile */
+
+.profile-usertitle-cpr {
+    color: #5b9bd1;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+
+.profile-usertitle-contacts {
+    color: #5a7391;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.profile-userpic i {
+    border-radius: 50% !important;
+    float: none;
+    height: 50%;
+    margin: 0 auto;
+    width: 50%;
+}
